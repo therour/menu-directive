@@ -1,0 +1,31 @@
+{
+    "name": "therour/menu-directive",
+    "description": "Create a menu with blade directive",
+    "type": "library",
+    "require": {
+        "php": "^7.1.13",
+        "illuminate/console": "5.8.*|^6.0.0",
+        "illuminate/http": "5.8.*|^6.0.0",
+        "illuminate/support": "5.8.*|^6.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nizom Sidiq",
+            "email": "nizomsidiq@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Therour\\MenuDirective\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Therour\\MenuDirective\\MenuDirectiveServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
